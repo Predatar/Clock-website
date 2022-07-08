@@ -1,23 +1,28 @@
 html {
 	position: relative;
-	width: 1920px;
-	height: 4357px;
+	width: 100%;
+	height: 100vh;
 	margin: 0;
 }
+
 body {
 	margin: 0;
 }
+
 .header {
 	width: 1920px;
 	height: 122px;
-	background: #000000;;
+	background: #000000;
+	;
 }
+
 .top-header {
 	width: 1920px;
 	height: 44px;
 	display: flex;
 	align-items: center;
 }
+
 .top-header_information {
 	margin: 0 14px;
 	margin-left: 406.33px;
@@ -26,11 +31,13 @@ body {
 	display: flex;
 	flex-direction: row;
 }
+
 .top-header_information_img {
 	height: 13.33px;
 	width: 13.36px;
 	margin-right: 16.31px;
 }
+
 .top-header_content {
 	margin: 0;
 	width: 355px;
@@ -38,17 +45,20 @@ body {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 12px;
 	line-height: 16px;
-	color:  gray;
+	color: gray;
 
 }
+
 .top-header_login-register {
 	width: 131px;
 	display: flex;
 	flex-direction: row;
 }
+
 .top-header_login-register_img {
 	margin-right: 10px;
 }
+
 .login_register {
 	background: transparent;
 	border: none;
@@ -66,12 +76,15 @@ body {
 	line-height: 16px;
 	text-align: right;
 }
+
 .login_register:hover {
 	color: rgb(159.38, 159.38, 159.38);
 }
+
 .login_register:active {
 	color: rgb(177.31, 154.86, 141.45);
 }
+
 .down-header {
 	width: 1920px;
 	height: 80px;
@@ -79,6 +92,7 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 .down-header_logo {
 	font-family: 'Stick No Bills', sans-serif;
 	font-size: 36px;
@@ -94,14 +108,16 @@ body {
 	margin-left: 405px;
 	margin-right: 469px;
 
-	color:  white;
+	color: white;
 }
+
 .down-header_navigation {
 	width: 543.41px;
 	height: 80px;
 
 	font-family: 'PT Sans', sans-serif;
 }
+
 .navigation_list {
 	display: flex;
 	flex-direction: row;
@@ -113,14 +129,17 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
 .navigation_list-item {
 	height: 100%;
 	display: flex;
 	align-items: center;
 }
+
 .navigation_list-item:first-of-type {
 	background: #1F1F1F;
 }
+
 .navigation_list-item_link {
 	margin: 31px 20px;
 	height: 18px;
@@ -134,24 +153,29 @@ body {
 
 	color: #FFFFFF;
 }
+
 .four {
 	margin-left: 40px;
 	margin-right: 0;
 	height: 22px;
 }
+
 .fifth {
 	margin-left: 40px;
 	margin-right: 0;
 }
+
 main {
 	background: #121212;
 }
+
 .wrapperOne {
 	width: 1920px;
 	height: 810px;
 	background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg);
 	background-image: url("../img/backgroundOne.png");
 }
+
 .wrapperOne_logo {
 	position: absolute;
 	width: 320px;
@@ -159,6 +183,7 @@ main {
 	left: 800px;
 	top: 284px;
 }
+
 .wrapperOne_text {
 	position: absolute;
 	width: 730px;
@@ -177,6 +202,7 @@ main {
 
 	color: white;
 }
+
 .wrapperTwo {
 	width: 1920px;
 	height: 730px;
@@ -186,10 +212,12 @@ main {
 	display: flex;
 	flex-direction: row;
 }
+
 .season {
 	width: 1040px;
 	height: 730px;
 }
+
 .season_text {
 	width: 376px;
 	height: 39px;
@@ -203,6 +231,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .season pre {
 	width: 120px;
 	height: 0px;
@@ -210,6 +239,7 @@ main {
 
 	border: 1px solid #FFFFFF;
 }
+
 .season-content {
 	width: 880px;
 	height: 405px;
@@ -217,23 +247,27 @@ main {
 	display: flex;
 	flex-direction: row;
 }
+
 .season-content_group {
 	width: 260px;
 	height: 405px;
 	margin: 0 25px;
 }
+
 .season-content_group_imgwrapper {
 	width: 260px;
 	height: 325px;
 
 	background: #191B1C;
 }
+
 .season-content_group_img {
 	width: 215px;
 	height: 214px;
 
 	margin: 55px 22px 56px 23px;
 }
+
 .season-content_group_text {
 	width: 260px;
 
@@ -244,12 +278,14 @@ main {
 
 	color: #FFFFFF;
 }
+
 .newColection {
 	width: 880px;
 	height: 730px;
 	background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg), #000000;
 	background-image: url("../img/newColection.png");
 }
+
 .newColection_text {
 	width: 376px;
 	height: 39px;
@@ -264,6 +300,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .newColection pre {
 	width: 120px;
 	height: 0px;
@@ -271,6 +308,7 @@ main {
 
 	border: 1px solid #FFFFFF;
 }
+
 .newColection_button {
 	background: transparent;
 	margin: 31px 372px 101px;
@@ -280,6 +318,7 @@ main {
 	border-style: solid;
 	border-color: white;
 }
+
 .newColection_link {
 	width: 82px;
 	height: 23px;
@@ -297,6 +336,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .wrapperThree {
 	width: 1920px;
 	height: 600px;
@@ -306,16 +346,19 @@ main {
 	display: flex;
 	flex-direction: row;
 }
+
 .colection_img {
 	width: 880px;
 	height: 600px;
 
 	background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(.jpg), #000000;
 }
+
 .colection {
 	width: 1040px;
 	height: 600px;
 }
+
 .colection2018 {
 	width: 376px;
 	height: 39px;
@@ -329,6 +372,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .colection pre {
 	width: 120px;
 	height: 0px;
@@ -336,6 +380,7 @@ main {
 
 	border: 1px solid #FFFFFF;
 }
+
 .colection_text {
 	width: 471px;
 	height: 173px;
@@ -350,6 +395,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .colection_button {
 	background: transparent;
 	margin: 66px 365px 101px 366px;
@@ -359,6 +405,7 @@ main {
 	border-style: solid;
 	border-color: white;
 }
+
 .colection_link {
 	width: 255px;
 	height: 23px;
@@ -376,12 +423,14 @@ main {
 
 	color: #FFFFFF;
 }
+
 .wrapperFour {
 	width: 1920px;
 	height: 1289px;
 
 	background: #000000;
 }
+
 .newArrivals {
 	width: 440px;
 	height: 48px;
@@ -396,6 +445,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .wrapperFour pre {
 	width: 120px;
 	height: 0px;
@@ -403,6 +453,7 @@ main {
 
 	border: 1px solid #FFFFFF;
 }
+
 .newArrivals-content {
 	width: 1109px;
 	height: 850px;
@@ -413,23 +464,27 @@ main {
 	justify-content: space-between;
 	align-content: space-between;
 }
+
 .newArrivals-content_group {
 	width: 260px;
 	height: 405px;
 	margin: 0;
 }
+
 .newArrivals-content_group_imgwrapper {
 	width: 260px;
 	height: 325px;
 
 	background: #191B1C;
 }
+
 .newArrivals-content_group_img {
 	width: 215px;
 	height: 214px;
 
 	margin: 55px 22px 56px 23px;
 }
+
 .newArrivals-content_group_text {
 	width: 260px;
 
@@ -440,12 +495,14 @@ main {
 
 	color: #FFFFFF;
 }
+
 .wrapperFive {
 	width: 1920px;
 	height: 362px;
 
 	background: #0F0F0F;
 }
+
 .brand {
 	width: 289px;
 	height: 48px;
@@ -460,6 +517,7 @@ main {
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
+
 .wrapperFive pre {
 	width: 120px;
 	height: 0px;
@@ -467,6 +525,7 @@ main {
 
 	border: 1px solid #FFFFFF;
 }
+
 .brands {
 	width: 1110px;
 	height: 94px;
@@ -476,18 +535,21 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 }
+
 .footer {
 	width: 1920px;
 	height: 450px;
 
 	background: #0F0F0F;
 }
+
 .footerOne {
 	width: 1920px;
 	height: 400px;
 	background: linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)), url(.jpg), #C4C4C4;
 	background-image: url("../img/footer.png");
 }
+
 .footerOne_group {
 	width: 1110px;
 	height: 219px;
@@ -498,11 +560,13 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 }
+
 .aboutShop {
 	width: 350px;
 	height: 219px;
 
 }
+
 .aboutShop_title {
 	width: 151px;
 	height: 32px;
@@ -516,6 +580,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .aboutShop_text {
 	width: 350px;
 	height: 147px;
@@ -528,10 +593,12 @@ main {
 
 	color: #FFFFFF;
 }
+
 .category {
 	width: 350px;
 	height: 219px;
 }
+
 .category_title {
 	width: 142px;
 	height: 32px;
@@ -545,11 +612,13 @@ main {
 
 	color: #FFFFFF;
 }
+
 .category_group {
 	height: 101px;
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .category_link {
 	width: auto;
 	height: 21px;
@@ -569,10 +638,12 @@ main {
 	color: #D0D0D0;
 	background: #0F0F0F;
 }
+
 .distribution {
 	width: 350px;
 	height: 219px;
 }
+
 .distribution_title {
 	width: 131px;
 	height: 32px;
@@ -586,6 +657,7 @@ main {
 
 	color: #FFFFFF;
 }
+
 .distribution_text {
 	width: 350px;
 	height: 42px;
@@ -599,12 +671,14 @@ main {
 
 	color: #FFFFFF;
 }
+
 .distribution form {
 	width: 350px;
 	height: 41px;
 	display: flex;
 	flex-direction: row;
 }
+
 .input_email {
 	width: 210px;
 	height: 41px;
@@ -612,6 +686,7 @@ main {
 	/*background: rgba(255, 255, 255, 0.4);*/
 	border: none;
 }
+
 .input_submit {
 	width: 140px;
 	height: 41px;
@@ -628,12 +703,14 @@ main {
 	color: #FFFFFF;
 	background: #0F0F0F;
 }
+
 .footerTwo {
 	width: 1920px;
 	height: 50px;
 
 	background: #0F0F0F;
 }
+
 .footerTwo_text {
 	width: 155px;
 	height: 16px;
